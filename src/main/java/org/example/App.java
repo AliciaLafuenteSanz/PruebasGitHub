@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Scanner;
+
 /**
  * Hello world!
  *
@@ -12,6 +14,10 @@ public class App
         System.out.println("hola sofi");
         System.out.print("Hola Ali");
         System.out.print("Nueva rama");
-        System.out.print("Despues del merge");
+        System.out.println("Despues del merge");
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("¿En que año naciste?:");
+        int edad = teclado.nextInt();
+        System.out.println("Tienes/vas a tener "+(2025-edad)+" años");
     }
 }
